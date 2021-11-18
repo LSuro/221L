@@ -1,7 +1,7 @@
 body {
-    --color-primary: #7333bd;
-    --color-primary-dark: #3a0a32;
-    --color-secondary: #3b00c5;
+    --color-primary: #c9a133;
+    --color-primary-dark: #fde370;
+    --color-secondary: #141000;
     --color-error: #cc3333;
     --color-success: #4bb544;
     --border-radius: 4px;
@@ -14,6 +14,24 @@ body {
     font-size: 18px;
     background: #424141;
 }
+
+.navbar {
+    height: 8vh;
+    overflow: hidden;
+    background-color: #c9a133;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 .container {
     width: 400px;
@@ -94,6 +112,7 @@ body {
 }
 
 .form__button {
+    
     width: 100%;
     padding: 1rem 2rem;
     font-weight: bold;
